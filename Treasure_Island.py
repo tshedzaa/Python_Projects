@@ -34,9 +34,10 @@ print("You're at a cross road. Where do you want to go?  ")
 direction = input('     Type "left" or "right" ')
 
 # conditional statement
-if (direction == "left") or  (direction == "Left"):
+if (direction == "left") or (direction == "Left"):
     print("You've come to a lake. There is an island in the midddle of the lake.\n")
-    swim = input('          Type "wait" to wait for the boat. Type "swim" to swim across ')
+    swim = input(
+        '          Type "wait" to wait for the boat. Type "swim" to swim across ')
     if (swim == "wait") or (swim == "Wait"):
         print("You arrive unharmed. There is a house with 3 doors\n")
         door = input(
